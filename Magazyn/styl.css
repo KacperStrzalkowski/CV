@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table, tr, td, th
+{
+    border: 3px solid black;
+    border-collapse: collapse;
+    column-gap: 1em;
+    padding: .5em;
+}
+body
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#formularze
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#formularze
+{
+    display: flex;
+}
+form
+{
+    margin: 2em;
+}
