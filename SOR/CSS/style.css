@@ -1,0 +1,79 @@
+html {
+  text-align: center;
+  width: 100vw;
+  background-color: yellowgreen;
+}
+table,
+tr,
+td,
+th {
+  background-color: gray;
+  border: 1px black solid;
+  border-collapse: collapse;
+}
+td,
+th {
+  padding: 3px;
+}
+.kalendarz {
+  padding: .15vw;
+  border: 3px solid black;
+  justify-content: center;
+  background-color: green;
+  width: 99vw;
+  height: 800px;
+  overflow-y: scroll;
+  display: grid;
+  grid-template-columns: repeat(7, 0.1fr);
+  grid-row-gap: 2px;
+  grid-column-gap: .10vw;
+}
+.data {
+  text-transform: capitalize;
+  background-color: yellow;
+  cursor: pointer;
+  padding: 5px;
+}
+.blokKalendarza {
+  justify-content: center;
+  border-radius: 5%;
+  width: 200px;
+  text-align: center;
+  background-color: red;
+}
+.opis {
+  padding: 5px;
+}
+.ukrytyOpis {
+  transition: all 0.5s;
+  height: 50px;
+}
+.pokazanyOpis {
+  transition: all 0.5s;
+  height: fit-content !important;
+}
+input[value="Usun"] {
+  margin: auto;
+}
+.sprawdzanieKalendarza{
+  margin-bottom: 2vw;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  width: 99vw;
+}
+.formularzKalendarz{
+  padding: .5vw;
+  border: 2px solid black;
+  display: grid;
+  justify-content: center;
+}
+.usuwanie{
+  display:none;
+}
+.dodawanie{
+  display: grid;
+  width: 99vw;
+  justify-content: center;
+  align-items: center;
+}
